@@ -126,6 +126,9 @@ namespace ImageMoji
 
         // Ctrl + Space 입력시 이미지 복사
         // TODO: HotKey로 하는 거 추가
+
+        // KMP로 포함된거 리스트 띄울 수 있게 작업중
+        // 근데 이모티콘 n개, 문자 길이 m이면?
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == (Keys.Control | Keys.Space))
